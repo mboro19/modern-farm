@@ -2,7 +2,7 @@
 
 let harvestPlants = (fieldArray) => {
 
-    for (const array of fieldArray){
+    for (let array of fieldArray){
 
         let output1 = array.output;
 
@@ -15,3 +15,5 @@ let harvestPlants = (fieldArray) => {
     }
 
 }
+
+export {harvestPlants};

@@ -1,3 +1,7 @@
+
+
+
+
 let fieldArray = [];
 
 let addPlant = (seedObj) => {
@@ -8,14 +12,15 @@ let addPlant = (seedObj) => {
 
 };
 
-export {addPlant};
 
 let usePlants = () => {
 
-    let plants = fieldArray;
+    let plants = fieldArray
     return plants
-
+    
 };
 
 export {usePlants};
+export {addPlant};
 
+console.log(fieldArray)

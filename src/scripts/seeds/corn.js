@@ -16,4 +16,4 @@ let createCorn = () => {
 
 };
 
-export {createCorn};
+export {createCorn}
