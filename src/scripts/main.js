@@ -13,18 +13,18 @@ export {yearlyPlan}
 
 
 
-let testCorn = [{
-    type: "Corn",
-    height: 180,
-    output: 6
+// let testCorn = [{
+//     type: "Corn",
+//     height: 180,
+//     output: 6
 
-},
-{
-    type: "Corn",
-    height: 180,
-    output: 6
+// },
+// {
+//     type: "Corn",
+//     height: 180,
+//     output: 6
 
-}];
+// }];
 
-console.log(harvestPlants(testCorn))
+// console.log(harvestPlants(testCorn))
 
