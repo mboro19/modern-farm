@@ -16,12 +16,12 @@ let plantSeeds = (plan) => {
 
     for (let plant of array){
 
-        if (plant.type === "Asparagus") {usePlants(createAsparagus())}
-        else if (plant.type === "Corn") {usePlants(createCorn())}
-        else if (plant.type === "Potato") {usePlants(createPotato())}
-        else if (plant.type === "Soybean") {usePlants(createSoybean())}
-        else if (plant.type === "Sunflower") {usePlants(createSunflower())}
-        else if (plant.type === "Wheat") {usePlants(createWheat())}
+        if (plant.type === "Asparagus") {addPlant(createAsparagus())}
+        else if (plant.type === "Corn") {addPlant(createCorn())}
+        else if (plant.type === "Potato") {addPlant(createPotato())}
+        else if (plant.type === "Soybean") {addPlant(createSoybean())}
+        else if (plant.type === "Sunflower") {addPlant(createSunflower())}
+        else if (plant.type === "Wheat") {addPlant(createWheat())}
     }
   }
 }

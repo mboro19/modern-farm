@@ -2,18 +2,18 @@
 
 let harvestPlants = (fieldArray) => {
 
-    for (let array of fieldArray){
+    let newArray = []
 
-        let output1 = array.output;
+    for (let object of fieldArray){
 
-        let newObj = 
-
-        (output1 * array)  
-
-        return newObj
+    let objectNew = object.map(obj => obj.output * obj)
+    newArray.push(objectNew)
 
     }
-
-}
+    return newArray
+};
 
 export {harvestPlants};
+
+
+
